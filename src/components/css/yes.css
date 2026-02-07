@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Poppins:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🌸 Background */
+.love-wrapper {
+  height: 100vh;
+  width: 100%;
+  background: radial-gradient(circle at top, #ffe4ec, #ffd1dc, #ffb6c1);
+  /* background: radial-gradient(circle at top, #ffe4ec, #ffb6c1); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* 💌 Card */
+.love-card {
+  background: rgba(255, 255, 255, 0.45);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  padding: 60px 50px;
+  border-radius: 35px;
+  text-align: center;
+  width: 380px;
+  box-shadow:
+    0 0 35px rgba(233, 30, 99, 0.3),
+    0 25px 60px rgba(0, 0, 0, 0.15);
+  animation: floatLove 4s ease-in-out infinite alternate;
+}
+
+@keyframes floatLove {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(-12px);
+  }
+}
+
+/* 😍 Emoji */
+.love-emoji {
+  font-size: 60px;
+  animation: pulseHeart 1.5s infinite;
+}
+
+@keyframes pulseHeart {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1);
+  }
+  75% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ❤️ Title */
+.love-title {
+  font-family: "Dancing Script", cursive;
+  font-size: 42px;
+  color: #e91e63;
+  margin: 18px 0;
+  text-shadow: 0 0 15px rgba(255, 105, 180, 0.5);
+}
+
+/* 💖 Text */
+.love-text {
+  font-size: 18px;
+  color: #8b1e3f;
+  line-height: 1.6;
+}
+
+/* 💕 Floating hearts */
+.hearts {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.hearts span {
+  font-size: 26px;
+  animation: floatHeart 2s ease-in-out infinite;
+}
+
+.hearts span:nth-child(1) {
+  animation-delay: 0s;
+}
+.hearts span:nth-child(2) {
+  animation-delay: 0.3s;
+}
+.hearts span:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.hearts span:nth-child(4) {
+  animation-delay: 0.9s;
+}
+.hearts span:nth-child(5) {
+  animation-delay: 1.2s;
+}
+
+@keyframes floatHeart {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+/* 📱 Mobile Responsive */
+@media (max-width: 480px) {
+  .love-card {
+    width: 90%;
+    padding: 40px 25px;
+  }
+
+  .love-title {
+    font-size: 30px;
+  }
+
+  .love-emoji {
+    font-size: 48px;
+  }
+
+  .love-text {
+    font-size: 16px;
+  }
+}

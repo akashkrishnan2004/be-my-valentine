@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to bottom, #fff0f5, #ffe4ec);
+  color: #8b1e3f;
+}
+
+section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+h1, h2 {
+  font-family: "Dancing Script", cursive;
+}
+
+.btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background: #e91e63;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.08);
+  background: #c2185b;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  margin: 10px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
