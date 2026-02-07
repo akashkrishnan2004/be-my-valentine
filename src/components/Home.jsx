@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/Home.css";
+import FallingHearts from "./FallingHearts";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -19,7 +20,7 @@ export default function Home() {
 
   const handleNo = () => {
     if (noCount >= messages.length - 1) {
-      navigate("/yes"); // auto love wins 💍❤️
+      navigate("/yes");
     } else {
       setNoCount(noCount + 1);
     }
@@ -27,6 +28,7 @@ export default function Home() {
 
   return (
     <div className="valentine-wrapper">
+      {/* <FallingHearts /> */}
       <div className="valentine-box">
         <h1>😙🩷</h1>
         <h2>Will you be my Valentine? 💖</h2>

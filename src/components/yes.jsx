@@ -1,8 +1,10 @@
 import "./css/yes.css";
+import FallingHearts from "./FallingHearts";
 
 export default function LoveYou() {
   return (
     <div className="love-wrapper">
+      <FallingHearts />
       <div className="love-card">
         <h1 className="love-emoji">😍💍❤️</h1>
 
