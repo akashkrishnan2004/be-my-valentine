@@ -3,9 +3,9 @@ import { useNavigate } from "react-router-dom";
 import "./css/Home.css";
 
 import FallingHearts from "./FallingHearts";
+import VisitorCounter from "./VisitorCounter";
 
 export default function Home() {
-
   const navigate = useNavigate();
 
   const [noCount, setNoCount] = useState(0);
@@ -50,6 +50,8 @@ export default function Home() {
             My heart doesn't accept NO when it comes to you 💞
           </p>
         )}
+
+        <VisitorCounter />
       </div>
     </div>
   );
