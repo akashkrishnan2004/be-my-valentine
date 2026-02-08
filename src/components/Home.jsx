@@ -28,6 +28,8 @@ export default function Home() {
     }
   };
 
+  
+
   return (
     <div className="valentine-wrapper">
       {/* <FallingHearts /> */}
@@ -51,7 +53,7 @@ export default function Home() {
           </p>
         )}
 
-        <VisitorCounter />
+        <VisitorCounter/>
       </div>
     </div>
   );

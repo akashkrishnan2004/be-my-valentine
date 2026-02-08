@@ -19,7 +19,6 @@
 
 // export default App;
 
-
 import AppRoute from "./AppRoute";
 
 import "./App.css";
