@@ -1,9 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import "./css/Home.css";
 
-import FallingHearts from "./FallingHearts";
-import VisitorCounter from "./VisitorCounter";
+import "./css/Home.css";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -32,7 +30,6 @@ export default function Home() {
 
   return (
     <div className="valentine-wrapper">
-      {/* <FallingHearts /> */}
       <div className="valentine-box">
         <h1>😙🩷</h1>
         <h2>Will you be my Valentine? 💖</h2>
@@ -52,8 +49,6 @@ export default function Home() {
             My heart doesn't accept NO when it comes to you 💞
           </p>
         )}
-
-        {/* <VisitorCounter/> */}
       </div>
     </div>
   );

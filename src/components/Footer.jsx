@@ -1,6 +1,6 @@
-import React from "react";
-import "./css/Footer.css";
 import VisitorCounter from "./VisitorCounter";
+
+import "./css/Footer.css";
 
 function Footer() {
   return (

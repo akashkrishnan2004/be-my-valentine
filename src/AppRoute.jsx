@@ -14,9 +14,6 @@ function AppRoute() {
         {/* Redirect any unknown route to Home */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
-
-      {/* Visitor counter runs once when site loads */}
-      {/* <VisitorCounter /> */}
       <Footer />
     </BrowserRouter>
   );
