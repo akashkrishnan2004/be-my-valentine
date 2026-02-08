@@ -1,7 +1,5 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
-import "./AppRouter.css"
-
 import Home from "./components/Home";
 import LoveYou from "./components/yes";
 import Footer from "./components/Footer";
@@ -18,7 +16,7 @@ function AppRoute() {
       </Routes>
 
       {/* Visitor counter runs once when site loads */}
-      {/* <VisitorCounter /> */}
+      <VisitorCounter />
       <Footer />
     </BrowserRouter>
   );

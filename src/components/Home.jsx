@@ -32,7 +32,7 @@ export default function Home() {
 
   return (
     <div className="valentine-wrapper">
-      {/* <FallingHearts /> */}
+      <FallingHearts />
       <div className="valentine-box">
         <h1>😙🩷</h1>
         <h2>Will you be my Valentine? 💖</h2>
