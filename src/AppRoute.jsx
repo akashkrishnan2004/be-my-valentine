@@ -16,7 +16,7 @@ function AppRoute() {
       </Routes>
 
       {/* Visitor counter runs once when site loads */}
-      <VisitorCounter />
+      {/* <VisitorCounter /> */}
       <Footer />
     </BrowserRouter>
   );
