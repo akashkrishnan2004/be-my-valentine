@@ -1,0 +1,26 @@
+.copy-container {
+  margin-top: 25px;
+  text-align: center;
+}
+
+.copy-btn {
+  background: linear-gradient(135deg, #ff5fa2, #ff2f6d);
+  border: none;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(255, 47, 109, 0.3);
+  transition: all 0.3s ease;
+}
+
+.copy-btn:hover {
+  transform: scale(1.08);
+  box-shadow: 0 12px 25px rgba(255, 47, 109, 0.4);
+}
+
+.copy-btn:active {
+  transform: scale(0.95);
+}

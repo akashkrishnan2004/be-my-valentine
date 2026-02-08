@@ -1,3 +1,4 @@
+import CopyLink from "./CopyLink";
 import "./css/yes.css";
 import FallingHearts from "./FallingHearts";
 
@@ -22,6 +23,7 @@ export default function LoveYou() {
           <span>💘</span>
           <span>❤️</span>
         </div>
+        <CopyLink />
       </div>
     </div>
   );

@@ -1,9 +1,11 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import "./css/Home.css";
+
 import FallingHearts from "./FallingHearts";
 
 export default function Home() {
+
   const navigate = useNavigate();
 
   const [noCount, setNoCount] = useState(0);
